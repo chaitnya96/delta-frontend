@@ -1,0 +1,36 @@
+table {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+table thead tr {
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  width: 25vw;
+  background: #fff;
+}
+table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 99;
+  background: #fff;
+}
+table tbody th {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 1;
+}
+.tbl-bg {
+  background-color: #fff !important;
+}
+
+.tbl-active-bg {
+  background-color: rgb(226, 221, 221) !important;
+}
+
+.table > :not(caption) > * > * {
+  background-color: white !important;
+}
